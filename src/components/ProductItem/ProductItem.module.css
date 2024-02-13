@@ -1,0 +1,33 @@
+ul > .card {
+  width: fit-content;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5em;
+}
+
+.image {
+  width: 280px;
+}
+
+.midCardContainer {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.cardInfo {
+  display: flex;
+  font-size: 1.1em;
+  align-items: center;
+}
+
+.quantityContainer {
+  display: flex;
+  gap: 0.5em;
+}
+
+.bottomCardContainer {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}

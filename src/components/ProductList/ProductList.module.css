@@ -1,0 +1,35 @@
+.message {
+  margin: 1em;
+}
+
+.productPageContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+div.filterContainer {
+  width: 25%;
+  margin: 1em;
+}
+
+.sortButtonContainer {
+  margin: 0.25em 1em;
+}
+
+div > .sortButton {
+  margin: 0.25em;
+}
+
+button.otherButton {
+  width: fit-content;
+  margin: 0.5em 0.5em 0.5em 1em;
+}
+
+.productContainer {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.productCard {
+  border: 1px solid black;
+}
